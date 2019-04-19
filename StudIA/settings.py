@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'StudIA.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd5s53oqre1g5h4',
-        'USER': 'xbmhizxtoenhre',
-        'PASSWORD': '69fe2f6534e26750af30a7b70ebb8293a3165fe7909e88e362426ff7957ff234',
-        'HOST': 'ec2-54-75-230-253.eu-west-1.compute.amazonaws.com',
+        'NAME': 'vvxossxu',
+        'USER': 'vvxossxu',
+        'PASSWORD': 'utXXbNmmczuVQUtbcA4r4fpmayfLH8pD',
+        'HOST': 'manny.db.elephantsql.com',
         'PORT': '5432',
     }
 }
