@@ -7,13 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/studia</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="Django default" uuid="ac83f4cc-bb7e-42b1-8149-c43cc3b11c2b">
+    <data-source source="LOCAL" name="Postgress_Heroku" uuid="e96a776c-a79d-464f-9730-4cd7f2475fcb">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/StudIA/settings.py</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/django</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-54-75-230-253.eu-west-1.compute.amazonaws.com:5432/d5s53oqre1g5h4</jdbc-url>
     </data-source>
   </component>
 </project>
