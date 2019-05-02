@@ -5,7 +5,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/studia</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/django</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="Postgress_Heroku" uuid="e96a776c-a79d-464f-9730-4cd7f2475fcb">
       <driver-ref>postgresql</driver-ref>

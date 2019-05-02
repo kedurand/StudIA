@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'StudIA.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
+        'NAME': 'django',
+        'USER': 'postgres',
+        'PASSWORD': 'adminpython',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
