@@ -16,6 +16,7 @@
 # Microsoft Visual Redistribution 2015 package 3
 # Cuda 9.0
 # Cudnn 7.5
+# pip install tensorflow-gpu==1.12
 
 print("Hello World!")
 
