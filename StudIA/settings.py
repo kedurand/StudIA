@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import psycopg2
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -77,10 +79,10 @@ WSGI_APPLICATION = 'StudIA.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'vvxossxu',
-        'USER': 'vvxossxu',
-        'PASSWORD': 'utXXbNmmczuVQUtbcA4r4fpmayfLH8pD',
-        'HOST': 'manny.db.elephantsql.com',
+        'NAME': 'postgres',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
         'PORT': '5432',
     }
 }
