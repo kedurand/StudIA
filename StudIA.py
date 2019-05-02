@@ -10,11 +10,20 @@
 # .\env\Scripts\activate
 # deactivate
 
+# ==CONFIG==
+# W10x64
+# pyton 3.6.8
+# Microsoft Visual Redistribution 2015 package 3
+# Cuda 9.0
+# Cudnn 7.5
+
 print("Hello World!")
 
 print("c'est Ayoub")
 
 import tensorflow as tf
+
+
 hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 print(sess.run(hello))

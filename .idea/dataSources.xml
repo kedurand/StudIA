@@ -19,5 +19,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://manny.db.elephantsql.com:5432/vvxossxu</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="postgres_GCloud" uuid="99eb9ece-753f-4014-9601-f54dca6b15e6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://34.76.155.91:5432/postgres</jdbc-url>
+    </data-source>
   </component>
 </project>
