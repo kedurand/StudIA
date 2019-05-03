@@ -1,3 +1,4 @@
+import tensorflow as tf
 # Accéder à la BDD avec un GUI
 # Lancer pgAdmin4
 
@@ -22,7 +23,7 @@ print("Hello World!")
 
 print("c'est Ayoub")
 
-import tensorflow as tf
+
 
 
 hello = tf.constant('Hello, TensorFlow!')
