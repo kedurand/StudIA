@@ -2,7 +2,7 @@
 # Lancer pgAdmin4
 
 # Installer les packages nécessaires
-# virtualenv - -no - site - packages - -distribute.env & & source.env / bin / activate & & pip install - r requirements.txt
+# virtualenv --no -site -packages --distribute.env && source.env/bin/activate && pip install -r requirements.txt
 
 # https://cloud.google.com/python/docs/?refresh=1
 
